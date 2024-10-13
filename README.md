@@ -1,4 +1,5 @@
 # **bcrypt-lite**
+
 A standalone, lightweight version of Bcrypt.js with no dependencies, ideal for environments where minimalism and ease of use are key.
 
 ## **Installation**
@@ -34,6 +35,9 @@ Alternatively, you can include it directly in your project via script tag:
 
 ## **Features**
 
+- Lightweight and standalone – no external dependencies.
+- Compatible with both Node.js and browser environments.
+- Simple API, similar to original bcrypt.js
 
 ## **License**
 

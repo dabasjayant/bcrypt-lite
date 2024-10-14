@@ -5,7 +5,7 @@
   "author": "Jayant Dabas (http://dabasjayant.github.io)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dabasjayant/bcrypt-lite.git"
+    "url": "git+https://github.com/dabasjayant/bcrypt-lite.git"
   },
   "bugs": {
     "url": "https://github.com/dabasjayant/bcrypt-lite/issues"

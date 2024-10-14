@@ -5,7 +5,7 @@
     /* CommonJS */ else if (typeof require === 'function' && typeof module === "object" && module && module["exports"])
         module["exports"] = factory();
     /* Global */ else
-        (global["dcodeIO"] = global["dcodeIO"] || {})["bcrypt"] = factory();
+        global["bcrypt_lite"] = factory();
 
 }(this, function() {
     "use strict";

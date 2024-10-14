@@ -1,6 +1,8 @@
 # **bcrypt-lite**
 
-A standalone, lightweight version of Bcrypt.js with no dependencies, ideal for environments where minimalism and ease of use are key.
+A library to help you hash passwords.
+
+`bcrypt-lite` is a standalone, lightweight version of Bcrypt.js with no dependencies, ideal for environments where minimalism and ease of use are key.
 
 ## **Installation**
 

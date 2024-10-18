@@ -1,5 +1,7 @@
 # **bcrypt-mini**
 
+<!-- [![npm](https://img.shields.io/npm/dw/bcrypt-mini?label=bcrypt-mini)](https://www.npmjs.com/package/bcrypt-mini) -->
+
 A library to help you hash passwords.
 
 `bcrypt-mini` is a standalone, lightweight version of Bcrypt.js with no dependencies, ideal for environments where minimalism and ease of use are key.

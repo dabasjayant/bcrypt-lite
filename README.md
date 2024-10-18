@@ -1,28 +1,28 @@
-# **bcrypt-lite**
+# **bcrypt-mini**
 
 A library to help you hash passwords.
 
-`bcrypt-lite` is a standalone, lightweight version of Bcrypt.js with no dependencies, ideal for environments where minimalism and ease of use are key.
+`bcrypt-mini` is a standalone, lightweight version of Bcrypt.js with no dependencies, ideal for environments where minimalism and ease of use are key.
 
 ## **Installation**
 
-You can install `bcrypt-lite` via npm:
+You can install `bcrypt-mini` via npm:
 
 ```bash
-npm install bcrypt-lite
+npm install bcrypt-mini
 ```
 
 Alternatively, you can include it directly in your project via script tag:
 
 ```html
-<script src="path/to/bcrypt-lite.js"></script>
+<script src="path/to/bcrypt-mini.js"></script>
 ```
 
 ## **Background**
 
 The original bcrypt library in Node.js requires some node specific dependencies that are unavailable in other environments like Next.js edge runtime. Moreover, there are certain times when a lightweight and simple package is more optimal.
 
-There, *bcrypt-lite* allows you to securely work with passwords even if you don't have access to a Node server.
+There, *bcrypt-mini* allows you to securely work with passwords even if you don't have access to a Node server.
 
 Example, you may use it with cloudflare workers, static websites, etc.
 
@@ -33,7 +33,7 @@ Example, you may use it with cloudflare workers, static websites, etc.
 ### **Node.js**
 
 ```javascript
-const bcrypt = require('bcrypt-lite');
+const bcrypt = require('bcrypt-mini');
 
 // Hash a password
 const hash = bcrypt.hashSync('plaintextPassword');
@@ -45,7 +45,7 @@ bcrypt.compareSync('plaintextPassword', hash);
 ### **Next.js**
 
 ```javascript
-import bcrypt from 'bcrypt-lite';
+import bcrypt from 'bcrypt-mini';
 
 // Hash a password
 const hash = bcrypt.hashSync('plaintextPassword');
@@ -57,7 +57,7 @@ bcrypt.compareSync('plaintextPassword', hash);
 ### **Browser**
 
 ```javascript
-<script src="path/to/bcrypt-lite.js"></script>
+<script src="path/to/bcrypt-mini.js"></script>
 
 <script>
     // Hash a password
@@ -80,4 +80,4 @@ In progress..
 
 ## **License**
 
-New-BSD / MIT ([see](https://github.com/dabasjayant/bcrypt-lite/blob/master/LICENSE))
+New-BSD / MIT ([see](https://github.com/dabasjayant/bcrypt-mini/blob/master/LICENSE))

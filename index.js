@@ -1,4 +1,4 @@
-const bcryptLite = require('./bcrypt-lite');
+const bcryptLite = require('./bcrypt-mini');
 
 exports.genSaltSync = bcryptLite.genSaltSync;
 exports.compareSync = bcryptLite.compareSync;

@@ -1,14 +1,14 @@
 {
-  "name": "bcrypt-lite",
+  "name": "bcrypt-mini",
   "description": "A standalone, lightweight version of Bcrypt.js with no dependencies, ideal for environments where minimalism and ease of use are key.",
   "version": "1.0.0",
   "author": "Jayant Dabas (http://dabasjayant.github.io)",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dabasjayant/bcrypt-lite.git"
+    "url": "git+https://github.com/dabasjayant/bcrypt-mini.git"
   },
   "bugs": {
-    "url": "https://github.com/dabasjayant/bcrypt-lite/issues"
+    "url": "https://github.com/dabasjayant/bcrypt-mini/issues"
   },
   "keywords": [
     "bcrypt",
@@ -22,7 +22,7 @@
     "crypto"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/dabasjayant/bcrypt-lite#readme",
+  "homepage": "https://github.com/dabasjayant/bcrypt-mini#readme",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
